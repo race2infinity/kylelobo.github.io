@@ -8,7 +8,8 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "prettier": "prettier --write 'src/**/*.js'"
+    "prettier": "prettier --write 'src/**/*.js'",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "anchorate": "1.2.3",
