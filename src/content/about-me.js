@@ -1,30 +1,30 @@
 export default [
   {
-    input: 'Justin.currentLocation',
-    return: '"San Jose, CA"',
+    input: 'Kyle.currentLocation',
+    return: '"Mumbai, India"',
   },
   {
-    input: 'Justin.contactInfo',
+    input: 'Kyle.contactInfo',
     return:
-      '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">github</a>"]',
+      '["<a href="mailto:kylelobo20@gmail.com">kylelobo20@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/lobokyle/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/kylelobo">GitHub</a>"]',
   },
   {
-    input: 'Justin.resume',
+    input: 'Kyle.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
+      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">kylelobo.pdf</a>"',
   },
   {
-    input: 'Justin.interests',
-    return: '["design", "basketball", "cooking", "starcraft"]',
+    input: 'Kyle.interests',
+    return: '["Decentralized Applications", "Algorithms", "Technical Writing"]',
   },
   {
-    input: 'Justin.education',
+    input: 'Kyle.education',
     return:
-      '"B.Sc. Structural Engineering - University of California, San Diego"',
+      '"B.E. Information Technology - University of Mumbai"',
   },
   {
-    input: 'Justin.skills',
+    input: 'Kyle.skills',
     return:
-      '["Sass", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]',
+      '["NodeJs", "VueJs", "Python", "C++", "Hyperledger", "Ethereum", "Git"]',
   },
 ];
