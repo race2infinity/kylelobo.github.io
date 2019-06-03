@@ -5,22 +5,22 @@ class ContactLinks extends React.PureComponent {
     return (
       <div className="contact-links">
         <span>
-          <a rel="noopener" target="_blank" href="mailto:j.chi2241@gmail.com">
-            j.chi2241@gmail.com
+          <a rel="noopener" target="_blank" href="mailto:kylelobo20@gmail.com">
+            kylelobo20@gmail.com
           </a>
         </span>
         <span>
           <a
             rel="noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/justin-chi-64b12b37"
+            href="https://www.linkedin.com/in/lobokyle"
           >
             LinkedIn
           </a>
         </span>
         <span>
-          <a rel="noopener" target="_blank" href="https://github.com/vai0">
-            github
+          <a rel="noopener" target="_blank" href="https://github.com/kylelobo">
+            GitHub
           </a>
         </span>
       </div>

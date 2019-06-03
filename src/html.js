@@ -42,7 +42,7 @@ class Html extends Component {
             content="width=device-width, initial-scale=1.0"
           />
           <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-          <title>Justin's Portfolio</title>
+          <title>Kyle Lobo</title>
           {css}
         </head>
         <body>
