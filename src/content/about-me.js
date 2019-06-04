@@ -11,7 +11,7 @@ export default [
   {
     input: 'Kyle.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">kylelobo.pdf</a>"',
+      '"<a rel="noopener" href="/kylelobo.pdf" target="_blank">kylelobo.pdf</a>"',
   },
   {
     input: 'Kyle.interests',
