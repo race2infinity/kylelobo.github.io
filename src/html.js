@@ -35,7 +35,7 @@ class Html extends Component {
 
           <meta name="referrer" content="origin" />
           <meta charSet="utf-8" />
-          <meta name="description" content="Justin Chi's Portfolio" />
+          <meta name="description" content="Kyle Lobo's Portfolio" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
