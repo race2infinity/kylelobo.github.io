@@ -6,7 +6,7 @@ before_script:
   - npm i gitfolio -g
 
 script:
-  - build kylelobo --theme dark --fork --sort star --order desc
+  - gitfolio build kylelobo --theme dark --fork --sort star --order desc
   - cp -a dist/. ../kylelobo.github.io
   - rm -rf dist/
   
