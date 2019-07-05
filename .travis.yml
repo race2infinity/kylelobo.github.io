@@ -1,0 +1,26 @@
+# https://github.com/imfunniee/gitfolio/issues/75
+
+language: node_js
+node_js:
+  - "10" # Node version
+  
+dist: trusty
+
+before_script:
+  - npm i gitfolio -g
+
+script:
+  - gitfolio build kylelobo --theme dark --fork --sort star --order desc
+  - cp -a dist/. ../kylelobo.github.io
+  - sed -i 's/imfunniee/kylelobo/g' index.html
+  - sed -i 's/title>kylelobo/title>Kyle Lobo/g' index.html
+  - rm -rf dist/
+  
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  keep_history: true
+  on:
+    branch: master
+  target_branch: master
