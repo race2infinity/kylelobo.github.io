@@ -10,6 +10,10 @@ before_script:
 script:
   - gitfolio build kylelobo --theme dark --fork --sort star --order desc
   - cp -a dist/. ../kylelobo.github.io
+  - ls
+#   - cd kylelobo.github.io
+#   - sed -i 's/imfunniee/kylelobo/g' index.html
+#   - sed -i 's/title>kylelobo/title>Kyle Lobo/g' index.html
   - rm -rf dist/
   
 deploy:
