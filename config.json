@@ -6,6 +6,9 @@
   "sort": "star",
   "order": "desc",
   "includeFork": true,
-  "theme": "dark.css"
+  "theme": "dark.css",
+  "twitter": null,
+  "linkedin": null,
+  "medium": null
  }
 ]
