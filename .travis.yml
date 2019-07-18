@@ -12,7 +12,7 @@ before_script:
   - npm install
 
 script:
-  - node ./bin/gitfolio.js build kylelobo --theme dark --fork --sort star --order desc
+  - node ./bin/gitfolio.js build kylelobo --theme dark --fork --sort star --order desc --twitter Lazy_Kyle --linkedin lobokyle
   - cp -a dist/. ../
   - cd ..
 #   - sed -i 's/imfunniee/kylelobo/g' index.html
