@@ -17,7 +17,6 @@ script:
   - cd ..
 #   - sed -i 's/imfunniee/kylelobo/g' index.html
   - sed -i 's/title>kylelobo/title>Kyle Lobo/g' index.html
-  - sed -i 's/\"kylelobo.github.io/\"https:\/\/kylelobo.github.io/g' index.html
   - rm -rf gitfolio/
   
 deploy:
