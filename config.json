@@ -1,14 +1,14 @@
 [
  {
-  "username": null,
-  "name": null,
-  "userimg": null,
+  "username": "kylelobo",
+  "name": "Kyle Lobo",
+  "userimg": "https://avatars0.githubusercontent.com/u/25124502?v=4",
   "sort": "star",
   "order": "desc",
   "includeFork": true,
   "theme": "dark.css",
   "twitter": "Lazy_Kyle",
-  "linkedin": "kyle-lobo",
+  "linkedin": "lobokyle",
   "medium": null
  }
 ]
