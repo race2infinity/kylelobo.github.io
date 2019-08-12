@@ -7,8 +7,10 @@
   "order": "desc",
   "includeFork": true,
   "theme": "dark.css",
+  "types": [
+   "owner"
+  ],
   "twitter": "Lazy_Kyle",
-  "linkedin": "kyle-lobo",
-  "medium": null
+  "linkedin": "kyle-lobo"
  }
 ]
