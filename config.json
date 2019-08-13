@@ -6,11 +6,6 @@
   "sort": "star",
   "order": "desc",
   "includeFork": true,
-  "theme": "dark.css",
-  "types": [
-   "all"
-  ],
-  "twitter": "Lazy_Kyle",
-  "linkedin": "kyle-lobo"
+  "theme": "dark.css"
  }
 ]
