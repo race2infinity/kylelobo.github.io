@@ -75,29 +75,3 @@
                             </div>
                         </section>
                         </a>
-                    </div>
-                </section>
-            </a>
-            `);
-        }
-      }).fail(function() {
-        return (document.getElementById("blog_section").style.display = "none");
-      });
-    </script>
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-
-</body></html>
