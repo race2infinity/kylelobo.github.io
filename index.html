@@ -75,6 +75,32 @@
                             </div>
                         </section>
                         </a>
+                        <a href="https://github.com/kylelobo/TraceIT" target="_blank">
+                        <section>
+                            <div class="section_title">TraceIT</div>
+                            <div class="about_section">
+                            <span style="display:block;">A project that aims to make the supply chain easier to track and trace.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/stayh2o/ESPCN" target="_blank">
+                        <section>
+                            <div class="section_title">ESPCN</div>
+                            <div class="about_section">
+                            <span style="display:block;">Real-time single image and video super-resolution using an efficient subpixel convolutional neural network</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a></div>
+      </div>
+      <div id="forks" style="display: block;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section">
                         <a href="https://github.com/kylelobo/Open-Hackathon" target="_blank">
                         <section>
                             <div class="section_title">Open-Hackathon</div>
@@ -101,6 +127,19 @@
           document.getElementById("loading").classList.remove("animated");
           document.getElementById("loading").classList.remove("fadeOut");
           document.getElementById("loading").style.display = "none";
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
     </script>
 
     <script>
