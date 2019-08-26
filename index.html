@@ -75,32 +75,6 @@
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/kylelobo/TraceIT" target="_blank">
-                        <section>
-                            <div class="section_title">TraceIT</div>
-                            <div class="about_section">
-                            <span style="display:block;">A project that aims to make the supply chain easier to track and trace.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/stayh2o/ESPCN" target="_blank">
-                        <section>
-                            <div class="section_title">ESPCN</div>
-                            <div class="about_section">
-                            <span style="display:block;">Real-time single image and video super-resolution using an efficient subpixel convolutional neural network</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
-                            </div>
-                        </section>
-                        </a>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
                         </section>
@@ -127,19 +101,6 @@
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
-    <script type="text/javascript">
-      setTimeout(function() {
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function() {
-          document.getElementById("loading").classList.remove("animated");
-          document.getElementById("loading").classList.remove("fadeOut");
-          document.getElementById("loading").style.display = "none";
-        }, 800);
-      }, 1500);
-      $.getJSON("blog.json", function(blog) {
-        blog = blog || [];
-        if (blog.length == 0) {
           return (document.getElementById("blog_section").style.display =
             "none");
         }
@@ -166,16 +127,3 @@
         animate: false,
         gutter: 30, // default gutter size
         static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
-
-</body></html>
