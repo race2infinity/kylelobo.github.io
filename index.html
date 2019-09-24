@@ -75,32 +75,6 @@
                             </div>
                         </section>
                         </a>
-                        <a href="https://github.com/stayh2o/ESPCN" target="_blank">
-                        <section>
-                            <div class="section_title">ESPCN</div>
-                            <div class="about_section">
-                            <span style="display:block;">Real-time single image and video super-resolution using an efficient subpixel convolutional neural network</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
-                            </div>
-                        </section>
-                        </a>
-      </div>
-      <div id="forks" style="display: block;">
-        <h1>Forks.</h1>
-        <div class="projects" id="forks_section">
-                        <a href="https://github.com/kylelobo/omegaup" target="_blank">
-                        <section>
-                            <div class="section_title">omegaup</div>
-                            <div class="about_section">
-                            <span style="display:block;">omegaUp automatic programming contest evaluator &amp; arena</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
                         </section>
@@ -127,32 +101,6 @@
             "none");
         }
         for (var i = 0; i < blog.length; i++) {
-          $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-        }
-      }).fail(function() {
-        return (document.getElementById("blog_section").style.display = "none");
-      });
-    </script>
-
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
         maxColumns: 2,
         useTransform: true
       });
@@ -165,9 +113,4 @@
         useMin: false,
         maxColumns: 2,
         useTransform: true
-      });
-
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
       });
