@@ -3,11 +3,11 @@
 language: node_js
 node_js:
   - "10" # Node version
-  
+
 dist: trusty
 
 before_script:
-  - git clone https://github.com/imfunniee/gitfolio.git
+  # - git clone https://github.com/imfunniee/gitfolio.git
   - cd gitfolio
   - npm install
 
@@ -18,9 +18,9 @@ script:
 #   - sed -i 's/imfunniee/kylelobo/g' index.html
   - sed -i 's/title>kylelobo/title>Kyle Lobo/g' index.html
   - sed -i 's/\"kylelobo.github.io/\"https:\/\/kylelobo.github.io/g' index.html
-  - sed -i '78,103d; 130,155d; 169,181d; 304,307d' index.html
+  # - sed -i '78,103d; 130,155d; 169,181d; 304,307d' index.html
   - rm -rf gitfolio/
-  
+
 deploy:
   provider: pages
   skip_cleanup: true
