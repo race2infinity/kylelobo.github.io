@@ -18,6 +18,7 @@ script:
 #   - sed -i 's/imfunniee/kylelobo/g' index.html
   - sed -i 's/title>kylelobo/title>Kyle Lobo/g' index.html
   - sed -i 's/\"kylelobo.github.io/\"https:\/\/kylelobo.github.io/g' index.html
+  - sed -i '261,264d' index.html
   # - sed -i '78,103d; 130,155d; 169,181d; 304,307d' index.html
   - rm -rf gitfolio/
 
