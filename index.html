@@ -239,7 +239,7 @@
                         <section>
                             <div class="section_title">gitfolio</div>
                             <div class="about_section">
-                            <span style="display:block;"><img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png?v8" class="emoji"> personal website + blog  for every github user</span>
+                            <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/octocat.png?v8" class="emoji"> personal website + blog  for every github user</span>
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
@@ -262,6 +262,42 @@
                         </section>
                         </a></div>
       </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
         return (document.getElementById("blog_section").style.display = "none");
       });
     </script>
