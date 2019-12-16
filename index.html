@@ -262,10 +262,6 @@
                         </section>
                         </a></div>
       </div>
-        if (blog.length == 0) {
-          return (document.getElementById("blog_section").style.display =
-            "none");
-        }
         for (var i = 0; i < blog.length; i++) {
           $("#blogs").append(`
             <a href="./blog/${blog[i].url_title}/" target="_blank">
